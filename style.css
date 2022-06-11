@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Lato:wght@400;700&display=swap');
+
+html {
+    border: 20px solid double white;
+    margin: 50px;
+    border-color: white;
+    border-style: dashed;
+    padding: 50px;
+    text-align: justify;    
+}
+
+body {
+ 
+    background-image: url(jpg/img-1.jpg);
+    color: aliceblue; 
+}
+h1 {text-align: center;
+    font-family: Dancing Script;
+    font-size: 30pt;   
+ }
+ .png {
+    width: 70pt;
+    height: 75pt;
+    background: url(png/img-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    
+ }
+
+.list {
+    margin: 10pt;
+    float: right;
+    font-family: Dancing Script;
+    font-size: larger;
+    text-align: justify;
+    line-height: 40pt;
+    
+}
+
+.img {
+    width: 300px;;
+    height: 300px;
+    background: url(jpg/img-2.jpg);
+    background-size: cover;
+    border: 3pt solid white;
+    border-bottom-right-radius: 50%;
+    border-style: ridge;
+   
+}
